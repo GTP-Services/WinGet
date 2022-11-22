@@ -1,0 +1,20 @@
+PackageIdentifier: GTPServices.QA.Lightning
+PackageVersion: 5.4.2.10
+Publisher: GTP Services
+PackageName: Lightning
+License: Contact GTP Services for licensing information
+LicenseUrl: https://gogtp.com/terms-of-service
+Copyright: Copyright (c) GTP Services. All rights reserved.
+Moniker: Lightning
+Installers:
+- InstallerUrl: https://update.gtp.one/lightning/LightningPackage/Lightning_x64.msix
+  InstallerSha256: B12B746A54B7E14B085A049D107D72958FBA3C22461E834F1293DFABACC7F7EA
+  SignatureSha256: 7E56A938CF8C3133D6D2C2ED6578A5A6BFAA1E2D26D5C2CABF19E2E51AACB235
+  Platform:
+  - Windows.Universal
+  InstallerType: msix
+  Scope: machine
+  Architecture: x64
+ManifestType: singleton
+ManifestVersion: 5.4.2.10
+# Edited with MSIX Hero
